@@ -1,7 +1,7 @@
 import * as PIXI from 'pixi.js';
 import { ColorOverlayFilter } from "@pixi/filter-color-overlay";
 import { getRandomShipConfig } from "./getRandomShipConfig";
-
+import * as TWEEN from '@tweenjs/tween.js'
 enum colors {
     red = 0xFF0000,
     green = 0x1F8A0A,
@@ -21,10 +21,11 @@ export class App {
         stroke: "#aaaaaa",
         strokeThickness: 0
       });
-
+     
       static Stage: PIXI.Container;
       static Renderer: PIXI.Renderer;
-      
+      static Ticker:PIXI.Ticker;
+      static docksState:number[] = [0, 0, 0, 0];
 
     constructor(parent: HTMLElement, width: number, height: number) {
 
@@ -33,6 +34,7 @@ export class App {
         console.log('App render', );
         App.Renderer = this.app.renderer;
         App.Stage = this.app.stage;
+        App.Ticker = this.app.ticker
         
 
         App.Init();
@@ -44,12 +46,18 @@ export class App {
     static Init() {
         App.AddGates()
         App.AddDocks(2,110)
+        App.Ticker.add((delta) => this.gameLoop(delta));
        
       }
-
+    static gameLoop(delta:number){
+        this.Play(delta);
+        TWEEN.update();
+        App.Renderer.render(App.Stage);
+    }
     static Play(delta: number) {
           
       }
+
     static AddGates() {
         console.log('addgates')
         let gatesContainer = new PIXI.Container();
