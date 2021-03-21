@@ -43,6 +43,7 @@ export class App {
 
     static Init() {
         App.AddGates()
+        App.AddDocks(2,110)
        
       }
 
