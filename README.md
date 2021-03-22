@@ -2,7 +2,7 @@
 <p align="center"><i>Test task which visualized sea port working, PIXI.js and TypeScript based </i></p>
 
 DEMO VIDEO
-[youtube video](https://www.youtube.com/watch?v=EeTtFP8iiMY)
+(https://www.youtube.com/watch?v=EeTtFP8iiMY)
 
 
 ##screenshots
