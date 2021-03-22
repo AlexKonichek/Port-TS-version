@@ -9,7 +9,7 @@
     "build_serve": "npm run build && http-server ./dist",
     "clean": "rimraf ./dist ./.cache"
   },
-  "author": "Llorenç Pujol Ferriol",
+  "author": "alexkonichek",
   "license": "MIT",
   "dependencies": {
     "@pixi/filter-color-overlay": "^4.0.0",
