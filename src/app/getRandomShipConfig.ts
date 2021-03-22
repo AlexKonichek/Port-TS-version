@@ -14,7 +14,7 @@ type Config = {
 function getRandomShipConfig(): Config {
     let fill='';
     let posY=0;
-    const posX=0;
+    const posX=900;
     const arr: string[] = [colors.red, colors.green];
     const color: string = arr[Math.round(Math.random())];
 
