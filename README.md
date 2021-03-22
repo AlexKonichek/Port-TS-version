@@ -4,6 +4,7 @@
 
 ##screenshots
 ![screenshot1](https://github.com/AlexKonichek/Port-TS-version/blob/master/src/assets/img/Screenshot_2.jpg "")​
+###########################################
 ![screenshot2](https://github.com/AlexKonichek/Port-TS-version/blob/master/src/assets/img/Screenshot_3.jpg "")​
 ![screenshot3](https://github.com/AlexKonichek/Port-TS-version/blob/master/src/assets/img/Screenshot_4.jpg "")​
 ![screenshot3](https://github.com/AlexKonichek/Port-TS-version/blob/master/src/assets/img/Screenshot_5.jpg "")​
