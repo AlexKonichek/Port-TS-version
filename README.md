@@ -16,8 +16,9 @@ DEMO VIDEO
 
 ## Install dependencies
 
+```
 npm install
-
+```
 
 ## Project setup
 ```
