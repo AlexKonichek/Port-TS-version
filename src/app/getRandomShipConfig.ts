@@ -11,7 +11,7 @@ type Config = {
     fill: string;
     posY: number;
     posX: number}
-function getRandomShipConfig(): Config {
+export function GetRandomShipConfig(): Config {
     let fill='';
     let posY=0;
     const posX=900;
@@ -33,4 +33,4 @@ function getRandomShipConfig(): Config {
         posX,
     };
 }
-export { getRandomShipConfig };
+

@@ -1,34 +1,18 @@
-# parcel-pixijs-quickstarter
-Example App using pixiJS and Typescript bundled with parcel 🚀🔥.
+# Test task which visualized sea port working, PIXI.js and TypeScript based 
+[youtube video](https://www.youtube.com/watch?v=EeTtFP8iiMY)
 
-### Highlights
-- ⚡️  Super fast start
-- 🔥  Hot module replacement.
-- 📝  Typescript.
-- 👮  Unit testing.
 
-### Quick start
-**Node version >= 8.0 (recommended 10.6.0) and NPM >= 5 (recommended 6.1.0)**
+##screenshots
+![screenshot1](https://github.com/AlexKonichek/VueJS-Forum/blob/master/Screenshot_.jpg "")​
+![screenshot2](https://github.com/AlexKonichek/VueJS-Forum/blob/master/Screenshot_5.jpg "")​
+![screenshot3](https://github.com/AlexKonichek/VueJS-Forum/blob/master/Screenshot_6.jpg "")​
 
-```bash
-# clone the repo.
-# --depth 1 removes all but one .git commit history (Optional).
-git clone --depth 1 https://github.com/llorenspujol/parcel-pixijs-quickstarter.git
-
-# go to the repo
-cd parcel-pixijs-quickstarter
-
-# install the dependencies via npm
-npm install
-
-# start the server in dev mode with HMR
-npm run start
+## Project setup
 ```
-go to [http://localhost:1234](http://localhost:1234) in your browser. Done.
+"npm run start"
+```
 
-### npm scripts
-
-* `npm run start` - runs the compiler and a server at the same time in dev mode with HMR (Hot Module Replacement) 🔥.
-* `npm run build` - runs the compiler once and generates a production build.
-* `npm run build_serve` - it makes a build and serves it to port 8080.
-* `npm run test` - runs the unit tests (.spec.ts files).
+### Compiles and minifies for production
+```
+npm run build
+```
