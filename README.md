@@ -3,9 +3,10 @@
 
 
 ##screenshots
-![screenshot1](https://github.com/AlexKonichek/VueJS-Forum/blob/master/Screenshot_.jpg "")​
-![screenshot2](https://github.com/AlexKonichek/VueJS-Forum/blob/master/Screenshot_5.jpg "")​
-![screenshot3](https://github.com/AlexKonichek/VueJS-Forum/blob/master/Screenshot_6.jpg "")​
+![screenshot1](https://github.com/AlexKonichek/Port-TS-version/blob/master/src/assets/img/Screenshot_2.jpg "")​
+![screenshot2](https://github.com/AlexKonichek/Port-TS-version/blob/master/src/assets/img/Screenshot_3.jpg "")​
+![screenshot3](https://github.com/AlexKonichek/Port-TS-version/blob/master/src/assets/img/Screenshot_4.jpg "")​
+![screenshot3](https://github.com/AlexKonichek/Port-TS-version/blob/master/src/assets/img/Screenshot_5.jpg "")​
 
 ## Project setup
 ```
